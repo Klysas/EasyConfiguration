@@ -26,10 +26,6 @@ namespace EasyConfiguration.Core
 		//	Constructors
 		//========================================================
 
-		public ConfigurationManager() :
-			this(new IniFileManager(Path.GetFullPath("settings.ini")))
-		{ }
-
 		public ConfigurationManager(IniFileManager iniFileManager) :
 			this(new NullLogger<ConfigurationManager>(), iniFileManager)
 		{ }
