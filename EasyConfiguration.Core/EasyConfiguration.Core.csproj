@@ -4,7 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0</Version>
+    <Version>0.1</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>EasyConfiguration.Core</Title>
+    <PackageId>easy-configuration-core</PackageId>
+    <Authors>Klysas</Authors>
+    <Product>$(Tite)</Product>
+    <PackageProjectUrl>https://github.com/Klysas/EasyConfiguration</PackageProjectUrl>
+    <Description>Easy way to access project parameters that come from environment variables and .ini files.</Description>
+    <RepositoryUrl>https://github.com/Klysas/EasyConfiguration</RepositoryUrl>
+    <PackageTags>config;configuration;ini;parser;inifile;file;environment;easy;simple</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
